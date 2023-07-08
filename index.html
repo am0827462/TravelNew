@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gabe & Angie</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      html {
+      scroll-behavior: smooth;
+    }
+    h1,h2,h3,h4,h5,h6 {font-family: "Roboto"}
+    body {font-family: "Source Sans Pro"}
+    </style>
+  </head>
+<body class="w3-light-white w3-margin">
+
+<!-- Navigation bar with links -->
+<div class="w3-bar w3-dark-gray w3-text-white">
+  <img class="w3-left-align w3-padding-16" src="logo-no-background.png" alt="Logo" height="100" width="150">
+  <a href="#Contact" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">CONTACT</a>
+  <a href="#Photos" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">PHOTOS</a>
+  <a href="#Videos" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">VIDEOS</a>
+  <a href="#Home" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">HOME</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-medium w3-hide-large" style="margin-top:10px;" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div id="demo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-small">
+  <a href="#Home" class="w3-bar-item w3-button">HOME</a>
+  <a href="#Videos" class="w3-bar-item w3-button">VIDEOS</a>
+  <a href="#Photos" class="w3-bar-item w3-button">PHOTOS</a>
+  <a href="#Contact" class="w3-bar-item w3-button">CONTACT</a>
+</div>
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" style="padding-bottom:32px;" id="Home">
+    <img class="w3-image" src="Namibia.jpg" alt="Namibia" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">EXPLORE</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>NAMIBIA</b></h1>
+      <h6><button class="w3-button w3-round w3-gray w3-padding-large w3-large w3-hover-opacity-off"><a href="#Videos">VIDEOS</a></button></h6>
+    </div>
+  </header>
+
+  <!-- Grid / Videos section -->
+  <div class="w3-row-padding" id="Videos">
+    <div class="w3-center w3-padding-32">
+      <h2 class="w3-wide w3-center">VIDEOS</h2>
+         <p class="w3-opacity w3-center"><i>Like and subscribe</i></p><br>
+         <p class="w3-white w3-text-black w3-left-align">
+    Take a look at our YouTube Channel at the links below!
+      </p>
+    </div>
+
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="Okaukuejo.JPG" style="width:100%">
+        <div class="w3-container">
+          <h3>Okaukuejo Waterhole</h3>
+          <p class="w3-opacity">A 24 hour view</p>
+          <p> One of the most visited waterholes in Namibia!</p>
+          <p><button class="w3-button w3-round w3-gray w3-block"><a href="https://www.youtube.com/watch?v=V9JrHxnJQwc">SEE NOW</a></button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="Kgalagadi.JPG" alt="Kgalagadi" style="width:100%">
+        <div class="w3-container">
+          <h3>Kgalagadi</h3>
+          <p class="w3-opacity">Kgalagadi Transfrontier Park</p>
+          <p>Let's go on safari in Kgalagadi/Kalahari Transfrontier Park in 4K!</p>
+          <p><button class="w3-button w3-round w3-gray w3-block"><a href="https://www.youtube.com/watch?v=Us9_9ymhzKc">SEE NOW</a></button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="Live.png" alt="Live" style="width:100%">
+        <div class="w3-container">
+          <h3>Okaukuejo Waterhole Live</h3>
+          <p class="w3-opacity">Waterhole Live Stream</p>
+          <p>See the waterhole in real time!</p>
+          <p><button class="w3-button w3-round w3-gray w3-block"><a href="https://www.youtube.com/watch?v=JVw2vHMpGQA">SEE NOW</a></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Photos section -->
+  <div class="w3-white" id="Photos">
+    <div class="w3-container">
+      <div class="w3-center w3-padding-32">
+      <h2 class="w3-wide">PHOTOS</h2>
+      <p class="w3-opacity"><i>Top sites from the Namibia trip</i></p><br>
+      <p class="w3-left-align w3-white w3-text-black">
+    For more photos, follow us on instagram <a href="https://www.instagram.com/gabeandangela/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      </p>
+      </div>
+
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-third">
+          <img src="Deadvlei.jpg" alt="Deadvlei" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Deadvlei</b></p>
+            <p>Deadvlei is a white clay pan located near the more famous salt pan of Sossusvlei, inside the Namib-Naukluft Park in Namibia. Also written DeadVlei or Dead Vlei, its name means "dead marsh" (from English dead, and Afrikaans vlei, a lake or marsh in a valley between the dunes). The pan also is referred to as "Dooie Vlei" which is the Afrikaans name. </p>
+            <button class="w3-button w3-round w3-gray w3-margin-bottom"><a href="https://en.wikipedia.org/wiki/Deadvlei">LEARN MORE<a/></button>
+          </div>
+        </div>
+        <div class="w3-third">
+          <img src="Kolmanskop.jpg" alt="Kolmanskp" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Kolmanskop</b></p>
+            <p>Brightly colored wallpaper peeling off the walls, dilapidated houses now inundated in rolling banks of sand … this is Kolmanskop, a ghost town in southern Africa’s Namib Desert, in the middle of a region known as “the forbidden zone.” And the story of how it got here is about as strange as the sight of the town today.</p>
+            <button class="w3-button w3-round w3-gray w3-margin-bottom"><a href="https://en.wikipedia.org/wiki/Kolmanskop">LEARN MORE<a/></button>
+          </div>
+        </div>
+        <div class="w3-third">
+          <img src="SandSea.jpg" alt="SandSea" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Namib Sand Sea - UNESCO World Heritage Site</b></p>
+            <p>The Namib Sand Sea is a unique coastal fog desert encompassing a diverse array of large, shifting dunes. It is an outstanding example of the scenic, geomorphological, ecological and evolutionary consequences of wind-driven processes interacting with geology and biology.</p>
+            <button class="w3-button w3-round w3-gray w3-margin-bottom"><a href="https://whc.unesco.org/en/list/1430/">LEARN MORE<a/></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Contact -->
+<div class="w3-white" id="Contact">
+  <div class="w3-container w3-padding-32">
+    <div class="w3-center w3-padding-32">
+<h2 class="w3-wide">CONTACT</h2>
+ <p class="w3-opacity"><i>We'd love to hear from you</i></p><br>
+<p class="w3-white w3-text-black w3-left-align">
+     Let us know what you think!  We are always open to travel tips and suggestions.  
+      </p>
+      </div>
+<form action="/action_page.php" target="_blank">
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+<p><button class="w3-button w3-round w3-gray w3-block" type="submit">SEND MESSAGE</button></p>
+</form>
+</div>
+</div>
+
+  <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+  <footer class="w3-container w3-dark-gray w3-center w3-margin-top">
+    <p>Contact us, or follow us on social media.</p>
+    <a href="mailto:angelammclaughlin@gmail.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/gabeandangela/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/angela-mclaughlin-cpa-609b2856/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p>
+    <a class="w3-button w3-round-xxlarge w3-small w3-white w3-margin-bottom" href="https://www.w3schools.com/spaces" target="_blank">Start now</a> <!-- End footer -->
+  </footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
